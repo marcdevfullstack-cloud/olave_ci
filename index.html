@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Olave — La solution digitale complète pour les propriétaires de lavage automobile. Gérez vos équipes, transactions, fidélité et surveillance depuis une seule application." />
+  <title>Olave — Votre lavage, digitalisé</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- AOS Scroll Animations -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="assets/logo.png" type="image/png" />
+</head>
+<body>
+
+  <!-- ═══════════════════════ NAVBAR ═══════════════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <img src="assets/logo.png" alt="Olave Logo" />
+        <span>olave</span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#features">Fonctionnalités</a></li>
+        <li><a href="#how-it-works">Comment ça marche</a></li>
+        <li><a href="#testimonials">Témoignages</a></li>
+        <li><a href="#plans">Plans</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#download">Télécharger</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="#download" class="btn-outline">Se connecter</a>
+        <a href="https://wa.me/2250779363809" target="_blank" class="btn-primary">Démarrer gratuitement</a>
+      </div>
+
+      <button class="nav-burger" id="navBurger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════ HERO ═══════════════════════ -->
+  <section class="hero" id="home">
+    <!-- Animated background blobs -->
+    <div class="hero-blob blob-1"></div>
+    <div class="hero-blob blob-2"></div>
+    <div class="hero-blob blob-3"></div>
+
+    <div class="hero-container">
+      <div class="hero-content" data-aos="fade-right" data-aos-duration="900">
+        <div class="hero-badge">
+          <i class="fa-solid fa-star"></i>
+          <span>La solution #1 pour les lavages en Afrique</span>
+        </div>
+
+        <h1 class="hero-title">
+          Gérez votre lavage<br />
+          automobile comme<br />
+          <span class="gradient-text">un pro.</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          Olave digitalise entièrement votre lavage auto — transactions,
+          équipe, fidélité clients, et surveillance. Tout centralisé.
+          Toujours disponible.
+        </p>
+
+        <div class="hero-actions">
+          <a href="https://wa.me/2250779363809" target="_blank" class="btn-primary btn-lg">
+            <i class="fa-solid fa-rocket"></i>
+            Démarrer gratuitement
+          </a>
+          <a href="#how-it-works" class="btn-ghost btn-lg">
+            <i class="fa-solid fa-play"></i>
+            Voir comment ça marche
+          </a>
+        </div>
+
+        <div class="hero-trust">
+          <div class="trust-item">
+            <i class="fa-solid fa-check-circle"></i>
+            <span>Aucune carte requise</span>
+          </div>
+          <div class="trust-item">
+            <i class="fa-solid fa-check-circle"></i>
+            <span>Démarrage en 5 minutes</span>
+          </div>
+          <div class="trust-item">
+            <i class="fa-solid fa-check-circle"></i>
+            <span>Support dédié</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual" data-aos="fade-left" data-aos-duration="900" data-aos-delay="200">
+        <div class="phone-mockup">
+          <div class="phone-frame">
+            <div class="phone-screen">
+              <!-- App UI Mockup -->
+              <div class="app-header">
+                <div class="app-avatar">PK</div>
+                <div>
+                  <div class="app-greeting">Bonjour, Paul !</div>
+                  <div class="app-role">Propriétaire</div>
+                </div>
+                <div class="app-notif"><i class="fa-solid fa-bell"></i></div>
+              </div>
+
+              <div class="app-ca-card">
+                <div class="app-ca-label">CA du mois</div>
+                <div class="app-ca-value">2 450 000 <span>FCFA</span></div>
+                <div class="app-ca-trend">
+                  <i class="fa-solid fa-arrow-trend-up"></i>
+                  +18% ce mois
+                </div>
+              </div>
+
+              <div class="app-stats-row">
+                <div class="app-mini-stat">
+                  <div class="app-mini-icon orange"><i class="fa-solid fa-store"></i></div>
+                  <div class="app-mini-val">3</div>
+                  <div class="app-mini-lbl">Lavages</div>
+                </div>
+                <div class="app-mini-stat">
+                  <div class="app-mini-icon green"><i class="fa-solid fa-people-group"></i></div>
+                  <div class="app-mini-val">12</div>
+                  <div class="app-mini-lbl">Laveurs</div>
+                </div>
+                <div class="app-mini-stat">
+                  <div class="app-mini-icon blue"><i class="fa-solid fa-users"></i></div>
+                  <div class="app-mini-val">248</div>
+                  <div class="app-mini-lbl">Clients</div>
+                </div>
+              </div>
+
+              <div class="app-section-title">Activité récente</div>
+              <div class="app-activity">
+                <div class="app-activity-item">
+                  <div class="app-act-icon green"><i class="fa-solid fa-car-side"></i></div>
+                  <div class="app-act-info">
+                    <div class="app-act-name">Lavage Complet</div>
+                    <div class="app-act-time">il y a 5 min</div>
+                  </div>
+                  <div class="app-act-amount">+ 3 500F</div>
+                </div>
+                <div class="app-activity-item">
+                  <div class="app-act-icon orange"><i class="fa-solid fa-star"></i></div>
+                  <div class="app-act-info">
+                    <div class="app-act-name">Points fidélité</div>
+                    <div class="app-act-time">il y a 12 min</div>
+                  </div>
+                  <div class="app-act-amount">+35 pts</div>
+                </div>
+
+                <div class="app-activity-item">
+                  <div class="app-act-icon navy"><i class="fa-solid fa-camera"></i></div>
+                  <div class="app-act-info">
+                    <div class="app-act-name">Véhicule détecté</div>
+                    <div class="app-act-time">il y a 18 min</div>
+                  </div>
+                  <div class="app-act-amount">Caméra 1</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Floating badges around phone -->
+          <div class="float-badge badge-top">
+            <i class="fa-solid fa-shield-check"></i>
+            Sécurisé
+          </div>
+          <div class="float-badge badge-right">
+            <i class="fa-solid fa-bolt"></i>
+            Temps réel
+          </div>
+          <div class="float-badge badge-bottom">
+            <i class="fa-solid fa-chart-line"></i>
+            +18% CA
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-indicator">
+      <div class="scroll-dot"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ STATS BAR ═══════════════════════ -->
+  <section class="stats-bar" id="stats">
+    <div class="stats-container">
+      <div class="stat-item" data-aos="fade-up" data-aos-delay="0">
+        <div class="stat-number" data-count="500">0</div>
+        <div class="stat-plus">+</div>
+        <div class="stat-label">Lavages gérés</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+        <div class="stat-number" data-count="15000">0</div>
+        <div class="stat-plus">+</div>
+        <div class="stat-label">Clients fidélisés</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+        <div class="stat-number" data-count="120000">0</div>
+        <div class="stat-plus">+</div>
+        <div class="stat-label">Transactions traitées</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+        <div class="stat-number" data-count="98">0</div>
+        <div class="stat-plus">%</div>
+        <div class="stat-label">Satisfaction clients</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ FEATURES ═══════════════════════ -->
+  <section class="features" id="features">
+    <div class="section-container">
+      <div class="section-header" data-aos="fade-up">
+        <div class="section-tag">Fonctionnalités</div>
+        <h2 class="section-title">Tout ce dont votre lavage a besoin</h2>
+        <p class="section-subtitle">
+          Olave réunit dans une seule application tous les outils
+          pour gérer, optimiser et développer votre activité.
+        </p>
+      </div>
+
+      <div class="features-grid">
+
+        <div class="feature-card feature-card--large" data-aos="fade-up" data-aos-delay="0">
+          <div class="feature-icon-wrap orange">
+            <i class="fa-solid fa-chart-line"></i>
+          </div>
+          <h3>Tableau de bord temps réel</h3>
+          <p>Visualisez instantanément votre chiffre d'affaires du jour, de la semaine et du mois. Comparez vos performances et identifiez vos pics d'activité.</p>
+          <ul class="feature-list">
+            <li><i class="fa-solid fa-check"></i> CA par lavage et par période</li>
+            <li><i class="fa-solid fa-check"></i> Graphiques d'évolution</li>
+            <li><i class="fa-solid fa-check"></i> Top laveurs & top clients</li>
+          </ul>
+          <div class="feature-visual">
+            <div class="mini-chart">
+              <div class="chart-bar" style="height:45%"></div>
+              <div class="chart-bar" style="height:65%"></div>
+              <div class="chart-bar" style="height:40%"></div>
+              <div class="chart-bar active" style="height:85%"></div>
+              <div class="chart-bar" style="height:70%"></div>
+              <div class="chart-bar" style="height:90%"></div>
+              <div class="chart-bar" style="height:75%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="feature-icon-wrap navy">
+            <i class="fa-solid fa-people-roof"></i>
+          </div>
+          <h3>Gestion des équipes</h3>
+          <p>Gérants et laveurs sous contrôle. Suivez les performances individuelles, gérez les accès et centralisez toute votre RH.</p>
+          <ul class="feature-list">
+            <li><i class="fa-solid fa-check"></i> Comptes gérants multi-lavages</li>
+            <li><i class="fa-solid fa-check"></i> Suivi des laveurs</li>
+          </ul>
+        </div>
+
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="150">
+          <div class="feature-icon-wrap green">
+            <i class="fa-solid fa-gift"></i>
+          </div>
+          <h3>Programme de fidélité</h3>
+          <p>Créez et gérez votre propre programme de fidélité. Points, récompenses, offres d'anniversaire — fidélisez vos clients naturellement.</p>
+          <ul class="feature-list">
+            <li><i class="fa-solid fa-check"></i> Points par transaction</li>
+            <li><i class="fa-solid fa-check"></i> Lavage gratuit automatique</li>
+          </ul>
+        </div>
+
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="feature-icon-wrap orange">
+            <i class="fa-solid fa-video"></i>
+          </div>
+          <h3>Surveillance intelligente</h3>
+          <p>Connectez vos caméras pour détecter automatiquement les véhicules entrants et vérifier la cohérence avec vos transactions.</p>
+          <ul class="feature-list">
+            <li><i class="fa-solid fa-check"></i> Détection de véhicules</li>
+            <li><i class="fa-solid fa-check"></i> Rapport d'écarts auto</li>
+          </ul>
+        </div>
+
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="250">
+          <div class="feature-icon-wrap navy">
+            <i class="fa-solid fa-money-bill-wave"></i>
+          </div>
+          <h3>Gestion des salaires</h3>
+          <p>Calculez, validez et archivez les paiements de vos gérants et laveurs en quelques clics. Historique complet disponible.</p>
+          <ul class="feature-list">
+            <li><i class="fa-solid fa-check"></i> Paiements gérants & laveurs</li>
+            <li><i class="fa-solid fa-check"></i> Historique détaillé</li>
+          </ul>
+        </div>
+
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="feature-icon-wrap green">
+            <i class="fa-solid fa-store"></i>
+          </div>
+          <h3>Multi-établissements</h3>
+          <p>Gérez plusieurs lavages depuis un seul compte propriétaire. Comparez les performances et pilotez votre réseau facilement.</p>
+          <ul class="feature-list">
+            <li><i class="fa-solid fa-check"></i> Dashboard consolidé</li>
+            <li><i class="fa-solid fa-check"></i> Comparatif par site</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ HOW IT WORKS ═══════════════════════ -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="section-container">
+      <div class="section-header" data-aos="fade-up">
+        <div class="section-tag">Simple & rapide</div>
+        <h2 class="section-title">Démarrez en 3 étapes</h2>
+        <p class="section-subtitle">Pas de formation complexe, pas d'installation lourde. Olave est opérationnel en quelques minutes.</p>
+      </div>
+
+      <div class="steps-wrapper">
+        <div class="steps-line"></div>
+
+        <div class="step" data-aos="fade-up" data-aos-delay="0">
+          <div class="step-number">01</div>
+          <div class="step-icon">
+            <i class="fa-solid fa-user-plus"></i>
+          </div>
+          <div class="step-content">
+            <h3>Créez votre compte</h3>
+            <p>Inscrivez-vous en tant que propriétaire de lavage. Configurez votre profil et ajoutez vos établissements en quelques secondes.</p>
+          </div>
+        </div>
+
+        <div class="step" data-aos="fade-up" data-aos-delay="150">
+          <div class="step-number">02</div>
+          <div class="step-icon">
+            <i class="fa-solid fa-sliders"></i>
+          </div>
+          <div class="step-content">
+            <h3>Configurez votre lavage</h3>
+            <p>Ajoutez vos gérants, laveurs, tarifs et paramètres de fidélité. Personnalisez entièrement selon vos besoins métier.</p>
+          </div>
+        </div>
+
+        <div class="step" data-aos="fade-up" data-aos-delay="300">
+          <div class="step-number">03</div>
+          <div class="step-icon">
+            <i class="fa-solid fa-rocket"></i>
+          </div>
+          <div class="step-content">
+            <h3>Pilotez & développez</h3>
+            <p>Suivez vos performances en temps réel, fidélisez vos clients et prenez des décisions éclairées grâce aux données Olave.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ SHOWCASE ═══════════════════════ -->
+  <section class="showcase">
+    <div class="showcase-container">
+      <div class="showcase-content" data-aos="fade-right" data-aos-duration="800">
+        <div class="section-tag">Pour chaque rôle</div>
+        <h2 class="section-title">Une app,<br />deux expériences</h2>
+        <p>Olave est conçu pour fonctionner parfaitement pour chaque niveau de votre organisation.</p>
+
+        <div class="role-tabs">
+          <button class="role-tab active" data-role="proprietaire">
+            <i class="fa-solid fa-crown"></i>
+            Propriétaire
+          </button>
+          <button class="role-tab" data-role="gerant">
+            <i class="fa-solid fa-badge-check"></i>
+            Gérant
+          </button>
+        </div>
+
+        <div class="role-content" id="roleContent">
+          <div class="role-panel active" data-role="proprietaire">
+            <ul class="role-list">
+              <li><i class="fa-solid fa-check-circle"></i> Vue consolidée de tous vos lavages</li>
+              <li><i class="fa-solid fa-check-circle"></i> Gestion des abonnements et plans</li>
+              <li><i class="fa-solid fa-check-circle"></i> Comparatif des performances par site</li>
+              <li><i class="fa-solid fa-check-circle"></i> Contrôle total des accès et équipes</li>
+              <li><i class="fa-solid fa-check-circle"></i> Rapports financiers détaillés</li>
+            </ul>
+          </div>
+          <div class="role-panel" data-role="gerant">
+            <ul class="role-list">
+              <li><i class="fa-solid fa-check-circle"></i> Enregistrement rapide des transactions</li>
+              <li><i class="fa-solid fa-check-circle"></i> Gestion des clients et fidélité</li>
+              <li><i class="fa-solid fa-check-circle"></i> Suivi quotidien de l'équipe</li>
+              <li><i class="fa-solid fa-check-circle"></i> Historique complet des lavages</li>
+              <li><i class="fa-solid fa-check-circle"></i> Ajout de nouveaux clients et laveurs</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="showcase-phones" data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
+        <div class="phone-duo">
+          <div class="phone-small phone-back">
+            <div class="phone-frame-sm">
+              <div class="phone-screen-sm gerant-screen">
+                <div class="gs-header">
+                  <div class="gs-avatar">AM</div>
+                  <div>
+                    <div class="gs-name">Gérant — Cocody</div>
+                    <div class="gs-status"><span class="dot"></span> En ligne</div>
+                  </div>
+                </div>
+                <div class="gs-ca">
+                  <div class="gs-ca-label">CA aujourd'hui</div>
+                  <div class="gs-ca-val">185 000 F</div>
+                </div>
+                <div class="gs-btn"><i class="fa-solid fa-plus"></i> Nouveau lavage</div>
+              </div>
+            </div>
+          </div>
+          <div class="phone-main-show phone-front">
+            <div class="phone-frame-main">
+              <div class="phone-screen-main">
+                <div class="pms-header">
+                  <div class="pms-logo">olave</div>
+                  <div class="pms-notif"><i class="fa-solid fa-bell"></i></div>
+                </div>
+                <div class="pms-banner">
+                  <div class="pms-banner-label">Réseau total</div>
+                  <div class="pms-banner-val">7 450 000 FCFA</div>
+                  <div class="pms-banner-sub">Ce mois · 3 lavages</div>
+                </div>
+                <div class="pms-cards">
+                  <div class="pms-card orange">
+                    <i class="fa-solid fa-store"></i>
+                    <div class="pms-card-val">3</div>
+                    <div class="pms-card-lbl">Sites</div>
+                  </div>
+                  <div class="pms-card green">
+                    <i class="fa-solid fa-people-group"></i>
+                    <div class="pms-card-val">18</div>
+                    <div class="pms-card-lbl">Laveurs</div>
+                  </div>
+                  <div class="pms-card navy">
+                    <i class="fa-solid fa-users"></i>
+                    <div class="pms-card-val">642</div>
+                    <div class="pms-card-lbl">Clients</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ TESTIMONIALS ═══════════════════════ -->
+  <section class="testimonials" id="testimonials">
+    <div class="section-container">
+      <div class="section-header" data-aos="fade-up">
+        <div class="section-tag">Témoignages</div>
+        <h2 class="section-title">Ils ont choisi Olave</h2>
+        <p class="section-subtitle">Des propriétaires de lavage qui ont transformé leur gestion grâce à Olave.</p>
+      </div>
+
+      <div class="testimonials-carousel" id="testimonialsCarousel">
+        <div class="testimonials-track" id="testimonialsTrack">
+
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-text">"Avant Olave, je me déplaçais chaque jour dans mes 2 lavages pour vérifier les caisses. Maintenant je vois tout depuis mon téléphone. Le CA du mois a augmenté de 23% grâce à une meilleure supervision."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar" style="background: linear-gradient(135deg, #FF6B00, #FFB347)">KD</div>
+              <div>
+                <div class="testimonial-name">Konan Djézou</div>
+                <div class="testimonial-role">Propriétaire · 2 lavages · Abidjan</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-text">"Le programme de fidélité a changé la donne. Mes clients reviennent plus souvent pour accumuler leurs points. J'ai même des clients qui viennent exprès pour avoir leur lavage gratuit !"</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar" style="background: linear-gradient(135deg, #22C55E, #16A34A)">AB</div>
+              <div>
+                <div class="testimonial-name">Aïcha Bamba</div>
+                <div class="testimonial-role">Gérante · Lavage Prestige · Cocody</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-text">"La gestion des salaires m'a sauvé. Avant je calculais tout manuellement sur papier. Avec Olave tout est automatique, transparent et mes laveurs sont contents car ils reçoivent leurs fiches de paie propres."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar" style="background: linear-gradient(135deg, #0F1F5C, #2D4FB5)">YT</div>
+              <div>
+                <div class="testimonial-name">Yao Tano</div>
+                <div class="testimonial-role">Propriétaire · 3 lavages · Bouaké</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-text">"La surveillance caméra est révolutionnaire. Je reçois des alertes quand un véhicule entre et je peux vérifier si une transaction a bien été enregistrée. Zéro perte, zéro mauvaise surprise."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar" style="background: linear-gradient(135deg, #FF6B00, #E55500)">MK</div>
+              <div>
+                <div class="testimonial-name">Mamadou Koné</div>
+                <div class="testimonial-role">Propriétaire · Lavage Express · Yopougon</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="carousel-controls">
+          <button class="carousel-btn" id="prevBtn"><i class="fa-solid fa-arrow-left"></i></button>
+          <div class="carousel-dots" id="carouselDots"></div>
+          <button class="carousel-btn" id="nextBtn"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ PLANS ═══════════════════════ -->
+  <section class="plans" id="plans">
+    <div class="section-container">
+      <div class="section-header" data-aos="fade-up">
+        <div class="section-tag">Nos formules</div>
+        <h2 class="section-title">Un plan pour chaque ambition</h2>
+        <p class="section-subtitle">Quel que soit le stade de votre activité, Olave a une formule adaptée. Contactez-nous pour découvrir l'offre qui vous convient.</p>
+      </div>
+
+      <div class="plans-grid">
+        <div class="plan-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="plan-header">
+            <div class="plan-icon green"><i class="fa-solid fa-seedling"></i></div>
+            <h3>Starter</h3>
+            <p>Parfait pour démarrer votre digitalisation</p>
+          </div>
+          <ul class="plan-features">
+            <li><i class="fa-solid fa-check"></i> 1 lavage</li>
+            <li><i class="fa-solid fa-check"></i> Gestion transactions</li>
+            <li><i class="fa-solid fa-check"></i> 1 gérant inclus</li>
+            <li><i class="fa-solid fa-check"></i> Gestion clients</li>
+            <li><i class="fa-solid fa-check"></i> Historique 3 mois</li>
+            <li class="plan-feature--off"><i class="fa-solid fa-xmark"></i> Programme fidélité</li>
+            <li class="plan-feature--off"><i class="fa-solid fa-xmark"></i> Surveillance caméra</li>
+          </ul>
+          <a href="#contact" class="plan-cta btn-outline">Commencer</a>
+        </div>
+
+        <div class="plan-card plan-card--popular" data-aos="fade-up" data-aos-delay="150">
+          <div class="plan-popular-badge">⭐ Le plus choisi</div>
+          <div class="plan-header">
+            <div class="plan-icon orange"><i class="fa-solid fa-bolt"></i></div>
+            <h3>Pro</h3>
+            <p>Pour les lavages qui veulent performer</p>
+          </div>
+          <ul class="plan-features">
+            <li><i class="fa-solid fa-check"></i> Jusqu'à 3 lavages</li>
+            <li><i class="fa-solid fa-check"></i> Gérants illimités</li>
+            <li><i class="fa-solid fa-check"></i> Programme fidélité complet</li>
+            <li><i class="fa-solid fa-check"></i> Gestion salaires</li>
+            <li><i class="fa-solid fa-check"></i> Statistiques avancées</li>
+            <li><i class="fa-solid fa-check"></i> Historique illimité</li>
+            <li class="plan-feature--off"><i class="fa-solid fa-xmark"></i> Surveillance caméra</li>
+          </ul>
+          <a href="#contact" class="plan-cta btn-primary">Commencer</a>
+        </div>
+
+        <div class="plan-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="plan-header">
+            <div class="plan-icon navy"><i class="fa-solid fa-crown"></i></div>
+            <h3>Enterprise</h3>
+            <p>Pour les réseaux et grandes structures</p>
+          </div>
+          <ul class="plan-features">
+            <li><i class="fa-solid fa-check"></i> Lavages illimités</li>
+            <li><i class="fa-solid fa-check"></i> Tout le plan Pro</li>
+            <li><i class="fa-solid fa-check"></i> Surveillance caméra IA</li>
+            <li><i class="fa-solid fa-check"></i> API & intégrations</li>
+            <li><i class="fa-solid fa-check"></i> Support prioritaire 24/7</li>
+            <li><i class="fa-solid fa-check"></i> Onboarding dédié</li>
+            <li><i class="fa-solid fa-check"></i> Rapports personnalisés</li>
+          </ul>
+          <a href="#contact" class="plan-cta btn-outline">Nous contacter</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ FAQ ═══════════════════════ -->
+  <section class="faq" id="faq">
+    <div class="section-container">
+      <div class="section-header" data-aos="fade-up">
+        <div class="section-tag">FAQ</div>
+        <h2 class="section-title">Questions fréquentes</h2>
+      </div>
+
+      <div class="faq-list" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Ai-je besoin d'un ordinateur pour utiliser Olave ?</span>
+            <i class="fa-solid fa-plus faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Non. Olave est une application mobile disponible sur Android et iOS. Votre téléphone suffit pour tout gérer — transactions, équipes, fidélité et surveillance.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Mes données sont-elles sécurisées ?</span>
+            <i class="fa-solid fa-plus faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Oui. Toutes vos données sont chiffrées et stockées sur des serveurs sécurisés. Chaque lavage a ses propres accès cloisonnés. Vos gérants ne voient que ce qui les concerne.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Puis-je gérer plusieurs lavages avec un seul compte ?</span>
+            <i class="fa-solid fa-plus faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Absolument. C'est l'une des forces d'Olave. En tant que propriétaire, vous avez une vue consolidée de tous vos établissements depuis un seul tableau de bord.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Comment fonctionne la surveillance caméra ?</span>
+            <i class="fa-solid fa-plus faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Olave se connecte à vos caméras IP existantes. Le système détecte automatiquement les véhicules entrants et compare avec les transactions enregistrées, générant des alertes en cas d'écart.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Combien de temps faut-il pour démarrer ?</span>
+            <i class="fa-solid fa-plus faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>En moins de 10 minutes. Créez votre compte, configurez votre lavage, ajoutez vos gérants et vous êtes prêt. Notre équipe est disponible pour vous accompagner si besoin.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Y a-t-il un support client disponible ?</span>
+            <i class="fa-solid fa-plus faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Oui. Notre équipe support est joignable par WhatsApp et par email. Les abonnés Enterprise bénéficient d'un support prioritaire 24h/24 et 7j/7.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ DOWNLOAD ═══════════════════════ -->
+  <section class="download-section" id="download">
+    <div class="section-container">
+      <div class="download-inner">
+
+        <div class="download-content" data-aos="fade-right" data-aos-duration="800">
+          <div class="section-tag">Télécharger l'app</div>
+          <h2 class="section-title" style="text-align:left">Disponible sur<br/>vos appareils</h2>
+          <p class="section-subtitle" style="text-align:left;max-width:460px">Téléchargez Olave gratuitement et commencez à transformer la gestion de votre lavage dès aujourd'hui.</p>
+
+          <div class="store-badges">
+            <a href="https://play.google.com/store" target="_blank" class="store-badge">
+              <i class="fa-brands fa-google-play"></i>
+              <div class="store-badge-text">
+                <span>Disponible sur</span>
+                <strong>Google Play</strong>
+              </div>
+            </a>
+            <a href="https://apps.apple.com" target="_blank" class="store-badge">
+              <i class="fa-brands fa-apple"></i>
+              <div class="store-badge-text">
+                <span>Télécharger sur</span>
+                <strong>App Store</strong>
+              </div>
+            </a>
+          </div>
+
+          <p class="download-note">
+            <i class="fa-solid fa-circle-info"></i>
+            Application en cours de déploiement sur les stores. Scannez le QR code ou contactez-nous sur WhatsApp pour un accès anticipé.
+          </p>
+        </div>
+
+        <div class="download-qr-wrap" data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
+          <div class="qr-card">
+            <div class="qr-img-wrap">
+              <img
+                src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&color=0F1F5C&bgcolor=FFFFFF&qzone=2&data=https%3A%2F%2Fwa.me%2F2250779363809"
+                alt="QR Code WhatsApp Olave"
+                width="180" height="180"
+                loading="lazy"
+              />
+            </div>
+            <div class="qr-card-info">
+              <p class="qr-label"><i class="fa-brands fa-whatsapp"></i> Rejoignez-nous sur WhatsApp</p>
+              <p class="qr-number">+225 07 79 36 38 09</p>
+              <a href="https://wa.me/2250779363809" target="_blank" class="btn-primary qr-btn">
+                <i class="fa-brands fa-whatsapp"></i> Discuter maintenant
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ CTA FINAL ═══════════════════════ -->
+  <section class="cta-final" id="contact">
+    <div class="cta-blobs">
+      <div class="cta-blob cta-blob-1"></div>
+      <div class="cta-blob cta-blob-2"></div>
+    </div>
+    <div class="cta-container" data-aos="zoom-in" data-aos-duration="700">
+      <div class="cta-logo">
+        <img src="assets/logo.png" alt="Olave" />
+      </div>
+      <h2>Prêt à transformer<br />votre lavage ?</h2>
+      <p>Rejoignez les propriétaires qui ont choisi Olave pour digitaliser, optimiser et développer leur activité.</p>
+
+      <form class="cta-form" id="ctaForm">
+        <div class="cta-form-row">
+          <input type="text" id="ctaName" placeholder="Votre prénom" required />
+          <input type="tel" id="ctaPhone" placeholder="Votre téléphone (ex: 0707070707)" required />
+        </div>
+        <input type="text" id="ctaLavage" placeholder="Nom de votre lavage" required />
+        <button type="submit" class="btn-primary btn-lg btn-full">
+          <i class="fa-solid fa-paper-plane"></i>
+          Je veux être contacté par l'équipe Olave
+        </button>
+        <p class="cta-legal">En soumettant ce formulaire, vous acceptez d'être recontacté par l'équipe Olave. Aucun engagement.</p>
+      </form>
+
+      <div class="cta-contact-alt">
+        <span>Ou contactez-nous directement :</span>
+        <a href="https://wa.me/2250779363809" target="_blank" class="contact-chip whatsapp">
+          <i class="fa-brands fa-whatsapp"></i> WhatsApp
+        </a>
+        <a href="mailto:contact@afriknovatech.com" class="contact-chip email">
+          <i class="fa-solid fa-envelope"></i> Email
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ FOOTER ═══════════════════════ -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img src="assets/logo.png" alt="Olave" />
+          <span>olave</span>
+        </div>
+        <p>La solution digitale complète pour les propriétaires de lavage automobile en Afrique.</p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://wa.me/2250779363809" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Produit</h4>
+          <ul>
+            <li><a href="#features">Fonctionnalités</a></li>
+            <li><a href="#plans">Tarifs</a></li>
+            <li><a href="#how-it-works">Comment ça marche</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Entreprise</h4>
+          <ul>
+            <li><a href="#">À propos</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="https://www.afriknovatech.com/">Afriknovatech</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Légal</h4>
+          <ul>
+            <li><a href="#">Conditions d'utilisation</a></li>
+            <li><a href="#">Politique de confidentialité</a></li>
+            <li><a href="#">Mentions légales</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 Olave by <strong>Afriknovatech</strong>. Tous droits réservés.</p>
+      <p class="footer-tagline">Votre lavage, digitalisé. 🚗✨</p>
+    </div>
+  </footer>
+
+  <!-- ─── Floating WhatsApp ─── -->
+  <a href="https://wa.me/2250779363809" target="_blank" class="float-whatsapp" aria-label="Chat WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span class="float-whatsapp-tooltip">Discuter sur WhatsApp</span>
+  </a>
+
+  <!-- ─── Back to Top ─── -->
+  <button class="back-to-top" id="backToTop" aria-label="Retour en haut">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- AOS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
